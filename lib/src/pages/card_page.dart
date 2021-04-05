@@ -59,7 +59,7 @@ class CardPage extends StatelessWidget {
         image: NetworkImage('https://upload.wikimedia.org/wikipedia/commons/3/35/Neckertal_20150527-6384.jpg'),
         fadeInDuration: Duration(milliseconds: 200),
         height: 300.0,
-        fit: BoxFit.cover,),
+        fit: BoxFit.cover,), // todo el ancho posible
       
           Container(
             padding: EdgeInsets.all(10),
